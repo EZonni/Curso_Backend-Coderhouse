@@ -1,0 +1,15 @@
+{
+  "name": "entregaclase6",
+  "version": "1.0.0",
+  "description": "Desafío entregable de la clase 6",
+  "main": "fileProductos.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Emmanuel Zonni",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "gitignore": "^0.7.0"
+  }
+}
