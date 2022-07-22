@@ -21,7 +21,7 @@ server.on("error", error => {
 });
 
 
-// ----- Endpoints del puerto 8080 -----  AGREGAR Async, Try y Catch como en fileProducts
+// ----- Endpoints del puerto 8080 -----
 
 app.get('/', (req, res) => {
 
