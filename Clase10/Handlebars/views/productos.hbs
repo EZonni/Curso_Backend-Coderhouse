@@ -1,0 +1,16 @@
+<h2 style="margin: 25px;">Lista de productos</h2>
+{{#if emptyData}}
+    <h4>No hay productos disponibles</h4>
+    <a class="btn btn-primary" href="/" role="button" style="margin: 25px;">Ingresar un nuevo producto</a>
+    {{else}}      
+        {{#each data}}
+            <div class="card" style="width: 200px; margin: 25px">
+                <img src="{{this.img}}" class="card-img-top" alt="..." style="height: 75px; width: 75px; margin: 15px">
+                <div class="card-body">
+                    <h5 class="card-title">{{this.title}}</h5>
+                    <p class="card-text">${{this.price}}</p>
+                </div>
+            </div>
+        {{/each}}
+        <a class="btn btn-primary" href="/" role="button" style="margin: 25px;">Ingresar un nuevo producto</a>
+{{/if}}
