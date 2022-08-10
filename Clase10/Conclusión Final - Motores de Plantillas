@@ -1,0 +1,5 @@
+Luego de haber utilizado los tres motores de plantillas, debo de decir que cada uno tiene sus puntos fuertes que me hacen dudar respecto a la elección de uno de ellos.
+Comenzando por Handlebars, destaco la posibilidad de utilizar un único archivo HTML al cual sólo se le debe aplicarse la plantilla que se necesite. En contraparte, requiere de mayor código (el cual me resultó engorroso) para su iniciación e implementación.
+Continuando con PUG, su iniciación es más sencilla y (en un principio) la sintáxis de sus plantillas también. Pero a medida que requieres escribir más código HTML en la plantilla, la sintaxis resulta poco cómoda de leer.
+Por último, EJS también se lleva a su favor su fácil inicación. Aunque el manejo de sus plantillas, partials y sus etiquetas me han resultado un poco confusas. Debería seguir indagando y probando este motor.
+Dándole un cierre a lo expuesto, por el momento diré que Handlebars lleva la delantera, ya que si bien su implementación puede ser un poco más compleja, el manejo de sus plantillas y su sintáxis me ha resultado más amigable.
