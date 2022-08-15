@@ -17,7 +17,7 @@ const listadoProductos = async (productos) => {
 
 socket.on('productos', (productos) => {
 
-    listadoProductos(productos).then((html) => {
+    listadoProductos(productos).then((htmlProductos) => {
 
         document.getElementById('listaProductos').innerHTML = htmlProductos;
     });
