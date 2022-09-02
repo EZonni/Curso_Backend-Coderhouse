@@ -1,0 +1,63 @@
+{
+    "_id" : ObjectId("6311531ca6116d16340df45b"),
+    "title" : "camara",
+    "price" : 2150.0,
+    "img" : "https://cdn0.iconfinder.com/data/icons/electronics-line-style/64/Camera-512.png",
+    "stock" : 100.0
+}
+{
+    "_id" : ObjectId("6311531ca6116d16340df45c"),
+    "title" : "laptop",
+    "price" : 4250.0,
+    "img" : "https://cdn0.iconfinder.com/data/icons/electronics-line-style/64/Laptop-512.png",
+    "stock" : 0.0
+}
+{
+    "_id" : ObjectId("6311531ca6116d16340df45d"),
+    "title" : "monitor",
+    "price" : 3200.0,
+    "img" : "https://cdn0.iconfinder.com/data/icons/electronics-line-style/64/CPU-512.png",
+    "stock" : 100.0
+}
+{
+    "_id" : ObjectId("6311531ca6116d16340df45f"),
+    "title" : "joystick",
+    "price" : 1050.0,
+    "img" : "https://cdn0.iconfinder.com/data/icons/electronics-line-style/64/Joystick-512.png",
+    "stock" : 100.0
+}
+{
+    "_id" : ObjectId("6311531ca6116d16340df460"),
+    "title" : "pendrive",
+    "price" : 1000.0,
+    "img" : "https://cdn0.iconfinder.com/data/icons/electronics-line-style/64/Flashdisk-512.png",
+    "stock" : 100.0
+}
+{
+    "_id" : ObjectId("6311531ca6116d16340df461"),
+    "title" : "modem wifi",
+    "price" : 1500.0,
+    "img" : "https://cdn0.iconfinder.com/data/icons/electronics-line-style/64/Hotspot-512.png",
+    "stock" : 100.0
+}
+{
+    "_id" : ObjectId("6311531ca6116d16340df462"),
+    "title" : "impresora",
+    "price" : 3850.0,
+    "img" : "https://cdn0.iconfinder.com/data/icons/electronics-line-style/64/Print-512.png",
+    "stock" : 100.0
+}
+{
+    "_id" : ObjectId("6311531ca6116d16340df463"),
+    "title" : "smartphone",
+    "price" : 2600.0,
+    "img" : "https://cdn0.iconfinder.com/data/icons/electronics-line-style/64/Mobile-512.png",
+    "stock" : 100.0
+}
+{
+    "_id" : ObjectId("631158daa6116d16340df46e"),
+    "title" : "headset",
+    "price" : 1870.0,
+    "img" : "https://cdn0.iconfinder.com/data/icons/electronics-line-style/64/headset-512.png",
+    "stock" : 100.0
+}

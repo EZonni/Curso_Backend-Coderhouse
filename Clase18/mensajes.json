@@ -1,0 +1,60 @@
+{
+    "_id" : ObjectId("63115751a6116d16340df464"),
+    "usuario" : "emailuno@correo.com",
+    "fecha" : ISODate("2022-09-02T01:07:29.276+0000"),
+    "mensaje" : "Buenos dias. Quisiera saber la memoria del smartphone. Gracias"
+}
+{
+    "_id" : ObjectId("63115751a6116d16340df465"),
+    "usuario" : "emaildos@correo.com",
+    "fecha" : ISODate("2022-09-02T01:07:29.276+0000"),
+    "mensaje" : "Buen dia, solicito informacion sobre las especificaciones del laptop, muchas gracias"
+}
+{
+    "_id" : ObjectId("63115751a6116d16340df466"),
+    "usuario" : "emailtres@correo.com",
+    "fecha" : ISODate("2022-09-02T01:07:29.276+0000"),
+    "mensaje" : "Hola, cuanto tardan en despachar sus envios?"
+}
+{
+    "_id" : ObjectId("63115751a6116d16340df467"),
+    "usuario" : "emailcuatro@correo.com",
+    "fecha" : ISODate("2022-09-02T01:07:29.276+0000"),
+    "mensaje" : "Buenas tardes, que lente trae la camara? Gracias"
+}
+{
+    "_id" : ObjectId("63115751a6116d16340df468"),
+    "usuario" : "emailcinco@correo.com",
+    "fecha" : ISODate("2022-09-02T01:07:29.276+0000"),
+    "mensaje" : "Buenas tardes. Cuales son las medidas de la impresora?"
+}
+{
+    "_id" : ObjectId("63115751a6116d16340df469"),
+    "usuario" : "emailseis@correo.com",
+    "fecha" : ISODate("2022-09-02T01:07:29.276+0000"),
+    "mensaje" : "Que tal, buenas tardes. Quisiera saber las medidas de la calculadora. Muchas gracias"
+}
+{
+    "_id" : ObjectId("63115751a6116d16340df46a"),
+    "usuario" : "emailsiete@correo.com",
+    "fecha" : ISODate("2022-09-02T01:07:29.276+0000"),
+    "mensaje" : "Buenas noches, cuantos megapixeles tiene la camara del smartphone? Desde ya muchas gracias"
+}
+{
+    "_id" : ObjectId("63115751a6116d16340df46b"),
+    "usuario" : "emailocho@correo.com",
+    "fecha" : ISODate("2022-09-02T01:07:29.276+0000"),
+    "mensaje" : "Hola, cual es la capacidad de almacenamiento del pendrive?"
+}
+{
+    "_id" : ObjectId("63115751a6116d16340df46c"),
+    "usuario" : "emailnueve@correo.com",
+    "fecha" : ISODate("2022-09-02T01:07:29.276+0000"),
+    "mensaje" : "Buen dia, realizan envios en el dia? "
+}
+{
+    "_id" : ObjectId("63115751a6116d16340df46d"),
+    "usuario" : "emaildiez@correo.com",
+    "fecha" : ISODate("2022-09-02T01:07:29.276+0000"),
+    "mensaje" : "Hola buenas tardes, me enviarian las especificaciones del monitor? Muchas gracias"
+}

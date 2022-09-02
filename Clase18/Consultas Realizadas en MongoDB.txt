@@ -1,0 +1,73 @@
+* use db_clase18
+
+* db.productos.insertMany([
+{title: "calculadora", price: 350, img: "https://cdn0.iconfinder.com/data/icons/electronics-line-style/64/Calculator-512.png"},
+{title: "camara", price: 2150, img: "https://cdn0.iconfinder.com/data/icons/electronics-line-style/64/Camera-512.png"},
+{title: "laptop", price: 4250, img: "https://cdn0.iconfinder.com/data/icons/electronics-line-style/64/Laptop-512.png"},
+{title: "monitor", price: 3200, img: "https://cdn0.iconfinder.com/data/icons/electronics-line-style/64/CPU-512.png"},
+{title: "mouse", price: 745, img: "https://cdn0.iconfinder.com/data/icons/electronics-line-style/64/Mouse-512.png"},
+{title: "joystick", price: 1050, img: "https://cdn0.iconfinder.com/data/icons/electronics-line-style/64/Joystick-512.png"},
+{title: "pendrive", price: 1000, img: "https://cdn0.iconfinder.com/data/icons/electronics-line-style/64/Flashdisk-512.png"},
+{title: "modem wifi", price: 1500, img: "https://cdn0.iconfinder.com/data/icons/electronics-line-style/64/Hotspot-512.png"},
+{title: "impresora", price: 3850, img: "https://cdn0.iconfinder.com/data/icons/electronics-line-style/64/Print-512.png"},
+{title: "smartphone", price: 2600, img: "https://cdn0.iconfinder.com/data/icons/electronics-line-style/64/Mobile-512.png"}
+])
+
+
+* db.mensajes.insertMany([
+{usuario: "emailuno@correo.com", fecha: new Date, mensaje: "Buenos dias. Quisiera saber la memoria del smartphone. Gracias"},
+{usuario: "emaildos@correo.com", fecha: new Date, mensaje: "Buen dia, solicito informacion sobre las especificaciones del laptop, muchas gracias"},
+{usuario: "emailtres@correo.com", fecha: new Date, mensaje: "Hola, cuanto tardan en despachar sus envios?"},
+{usuario: "emailcuatro@correo.com", fecha: new Date, mensaje: "Buenas tardes, que lente trae la camara? Gracias"},
+{usuario: "emailcinco@correo.com", fecha: new Date, mensaje: "Buenas tardes. Cuales son las medidas de la impresora?"},
+{usuario: "emailseis@correo.com", fecha: new Date, mensaje: "Que tal, buenas tardes. Quisiera saber las medidas de la calculadora. Muchas gracias"},
+{usuario: "emailsiete@correo.com", fecha: new Date, mensaje: "Buenas noches, cuantos megapixeles tiene la camara del smartphone? Desde ya muchas gracias"},
+{usuario: "emailocho@correo.com", fecha: new Date, mensaje: "Hola, cual es la capacidad de almacenamiento del pendrive?"},
+{usuario: "emailnueve@correo.com", fecha: new Date, mensaje: "Buen dia, realizan envios en el dia? "},
+{usuario: "emaildiez@correo.com", fecha: new Date, mensaje: "Hola buenas tardes, me enviarian las especificaciones del monitor? Muchas gracias"},
+])
+
+
+* db.productos.find()
+
+
+* db.mensajes.find()
+
+
+* db.productos.estimatedDocumentCount()
+
+
+* db.mensajes.estimatedDocumentCount()
+
+
+----- CRUD -----
+
+
+> db.productos.insertOne({title: "headset", price: 1870, img: "https://cdn0.iconfinder.com/data/icons/electronics-line-style/64/headset-512.png"})
+
+
+> db.productos.find({price: {$lt: 1000}}, {title: 1})
+
+
+> db.productos.find({$and: [{price: {$gt: 1000}}, {price: {$lt: 3000}}]}, {title: 1})
+
+
+> db.productos.find({price: {$gt: 3000}}, {title: 1})
+
+
+> db.productos.find({}, {title: 1}).sort({price: 1}).skip(2).limit(1)
+
+
+> db.productos.updateMany({}, {$set: {stock: 100}})
+
+
+> db.productos.updateMany({price: {$gt: 4000}}, {$set: {stock: 0}})
+
+
+> db.productos.deleteMany({price: {$lt: 1000}})
+
+
+----- USUARIO -----
+
+
+> db.createUser({user: "pepe", pwd: "asd456", roles: [{role: "read", db: "db_clase18"}]})
